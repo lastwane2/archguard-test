@@ -1,5 +1,5 @@
 // Shared UI component - leaf layer
-import { User } from '../entities/user/model';
+import { User } from '../../entities/user/model';
 
 interface ButtonProps {
   children: React.ReactNode;
