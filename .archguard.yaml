@@ -1,0 +1,24 @@
+modules:
+  - name: app
+    path: src/app/**
+    imports: [pages, widgets, features, entities, shared]
+
+  - name: pages
+    path: src/pages/**
+    imports: [widgets, features, entities, shared]
+
+  - name: widgets
+    path: src/widgets/**
+    imports: [features, entities, shared]
+
+  - name: features
+    path: src/features/**
+    imports: [entities, shared]
+
+  - name: entities
+    path: src/entities/**
+    imports: [shared]
+
+  - name: shared
+    path: src/shared/**
+    imports: []  # Leaf layer - cannot import from other modules
