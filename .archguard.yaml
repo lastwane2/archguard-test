@@ -22,3 +22,7 @@ modules:
   - name: shared
     path: src/shared/**
     imports: []  # Leaf layer - cannot import from other modules
+  
+  - name: aboba
+      path: src/aboba/**
+      imports: []
